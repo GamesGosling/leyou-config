@@ -14,9 +14,10 @@ spring:
     host: 192.168.19.121
   rabbitmq:
     host: 192.168.145.130
-    username: /admin
-    password: admin
     virtual-host: /admin
+    username: admin
+    password: admin
+    
     template:
       retry:
         enabled: true
