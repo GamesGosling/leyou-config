@@ -1,19 +1,19 @@
 server:
-  port: 35562
+  port: 10086
 spring:
   application:
     name: ly-registry
   rabbitmq:
-    virtual-host: /leyou
-    username: /leyou
-    password: leyou
-    host: 192.168.19.121
+    virtual-host: /admin
+    username: amdin
+    password: admin
+    host: 192.168.145.130
 eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-      defaultZone: http://127.0.0.1:35562/eureka
+      defaultZone: http://127.0.0.1:10086/eureka
   server:
     enable-self-preservation: false  #关闭自我保护
     eviction-interval-timer-in-ms: 5000 #每隔5秒进行一次服务列表清理
