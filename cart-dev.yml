@@ -4,9 +4,9 @@ spring:
   application:
     name: cart-service
   redis:
-    host: 192.168.145.130
+    host: 192.168.247.131
   rabbitmq:
-    host: 192.168.145.130
+    host: 192.168.247.131
     virtual-host: /admin
     username: admin
     password: admin

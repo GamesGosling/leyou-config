@@ -7,7 +7,7 @@ spring:
     virtual-host: /admin
     username: admin
     password: admin
-    host: 192.168.145.130
+    host: 192.168.247.131
 
 leyou:
   sms:
